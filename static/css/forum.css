@@ -1,0 +1,114 @@
+svg {
+    overflow: hidden;
+}
+
+.node rect {
+    stroke: #333;
+    stroke-width: 1.5px;
+    fill: #fff;
+}
+
+.edgeLabel rect {
+    fill: #fff;
+}
+
+.edgePath {
+    stroke: #333;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+input[type=text] {
+    width: 700px;
+}
+
+.activeNode {
+    fill: #262;
+}
+
+
+.graph_container > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.graph_container {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    border-radius:25px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.graph_container:hover {
+    width: 40%;
+    height: 40%;
+}
+
+#filter_topics_container {
+    top: 0px;
+    left: 0px;
+}
+
+#filter_restrictions_container {
+    top: 0px;
+    right: 0px;
+}
+
+#post_topics_container {
+    bottom: 0px;
+    left: 0px;
+}
+
+#post_restrictions_container {
+    bottom: 0px;
+    right: 0px;
+}
+
+#post {
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#post_message {
+    width: 40%;
+    height: 80px;
+}
+
+#filter {
+    display: block;
+    text-align: center;
+}
+
+.message {
+    padding: 5px;
+    margin: 5px;
+}
+
+.messageMeta {
+    font-size: 12px;
+}
+
+.messageMeta div {
+    display: inline;
+}
+
+.messageText {
+    font-size: 14px;
+}
+
+.msgID, .time {
+    color: #888;
+}
+
+.user, .time {
+    padding-left: 10px;
+}
