@@ -187,6 +187,7 @@ function drawMessages(root, data){
     $("#forumContent").append($("<button />")
                               .text("back")
                               .click(function(){
+                                  location.hash = "";
                                   thread = 0;
                                   $("#filter").submit();
                                   $("#post_reply_to").text("new thread");

@@ -10,7 +10,8 @@ here, in order to make nodes clickable.
 # Installation #
 1. clone the repository
 2. `cabal install`
-3. set postgres user/host/db in `snaplets/postgresql-simple/devel.cfg`
+3. set postgres user/host/db in
+   `snaplets/postgresql-simple/devel.cfg`, add `authTable = "users"` there
 4. `postforum -p 8000` to run it and create the `users` table
 5. create the `messages` table:
 
